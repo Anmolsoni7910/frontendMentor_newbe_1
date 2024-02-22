@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    /* Primary color */
+    --primary-Nutmeg: hsl(14, 45%, 36%);
+    --primary-Dark-Raspberry: hsl(332, 51%, 32%);
+
+    /* Neutral color */
+    --Neutral-White: hsl(0, 0%, 100%);
+    --Neutral-Rose-White: hsl(330, 100%, 98%);
+    --Neutral-Eggshell: hsl(30, 54%, 90%);
+    --Neutral-Light-Grey: hsl(30, 18%, 87%);
+    --Neutral-Wenge-Brown: hsl(30, 10%, 34%);
+    --Neutral-Dark-Charcoal: hsl(24, 5%, 18%);
+
+    /* Font Size paragraph */
+    --font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Neutral-Eggshell);
+}
+
+#main-page{
+    width: 50%;
+    border-radius: 20px;
+    background-color: var(--Neutral-White);
+}
+
+#main-page .container{
+    padding: 0 10px;
+}
+
+#main-page .main-img{
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    top: -10px;
+}
+
+#main-page .main-img img{
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#main-page h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+#main-page p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--font-size);
+}
+
+#prepration{
+    background-color: var(--Neutral-Rose-White);
+    padding: 20px 0;
+    opacity: 0.8;
+}
+
+#prepration h3{
+    color: var(--primary-Dark-Raspberry);
+    padding: 10px 10px;
+}
+
+#prepration ul li{
+    padding: 5px 0;
+    font-weight: 400;
+}
+
+#prepration ul li span{
+    font-weight: 700;
+}
+
+h2{
+    color: var(--primary-Nutmeg);
+    font-size: 28px;
+}
+
+.ingre{
+    opacity: 0.8;
+}
+
+.ingre li{
+    padding: 3px 5px;
+}
+
+ol.inst li{
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+ol.inst li span{
+    font-weight: 700;
+}
+
+table{
+    width: 80%;
+    margin: 10px 10px;
+}
+
+table tbody tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+table tbody tr td{
+    padding: 10px 30px;
+}
+
+.mud{
+    color: var(--primary-Nutmeg);
+    font-weight: 700;
+}
+
